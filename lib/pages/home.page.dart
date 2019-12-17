@@ -29,6 +29,9 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           children: <Widget>[
             Logo(),
+            SizedBox(
+              height: 20,
+            ),
             _completed
                 ? Success(
                     result: _resultText,
